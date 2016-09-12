@@ -20,7 +20,7 @@ sudo pacman -S base-devel openssl curl git screen wget
 ```
 #### Gentoo
 ```
-emerge --ask openssl curl git screen wget
+sudo emerge --ask openssl curl git screen wget
 ```
 
 #### Raspbian
