@@ -4,14 +4,14 @@
 Please backup your existing wallet files (~/.Vcash/data/ folder).
 I can't be responsible if you break something.
 
-## Req.
+## Requirements
 
 #### GNU/Linux
-GCC/G++ >= 4.8.* / git / screen / curl. On low-spec hardware, don't forget to increase the swap space (min 1024MB) to avoid 'Virtual memory exhausted: Cannot allocate memory' during the build process.
+**GCC/G++ >= 4.8.*** / git / screen / curl. On low-spec hardware, don't forget to increase the swap space (min 1024MB) to avoid 'Virtual memory exhausted: Cannot allocate memory' during the build process.
 
 #### Debian / Ubuntu / Raspbian
 ```
-sudo apt-get install build-essential openssl curl git screen
+sudo apt-get install build-essential openssl curl git screen wget
 ```
 
 #### Arch Linux
