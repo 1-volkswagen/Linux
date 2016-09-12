@@ -13,7 +13,6 @@ GCC/G++ >= **4.8.***. On low-spec hardware, don't forget to increase the swap sp
 ```
 sudo apt-get install build-essential openssl curl git screen wget
 ```
-
 #### Arch Linux
 ```
 sudo pacman -S base-devel openssl curl git screen wget
@@ -75,6 +74,29 @@ Add the folowing entry:
 /swapfile none swap defaults 0 0
 ```
 CTRL+X and press Y.
+
+#### Ubuntu / Debian
+
+Create swap file:
+```
+dd if=/dev/zero of=/PATH/FILENAME bs=1024 count=SIZE
+```
+Set permissions:
+```
+chmod 600 /PATH/FILENAME
+```
+Format to swap:
+```
+mkswap /PATH/FILENAME
+```
+Activate the swap file:
+```
+swapon /PATH/FILENAME
+```
+Add this line to /etc/fstab
+```
+/PATH/FILENAME swap swap sw 0 0
+```
 
 ## Install / Update
 As user (fresh ssh login as user, not su switch to user from the root account):
