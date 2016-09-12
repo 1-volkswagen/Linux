@@ -95,7 +95,7 @@ swapon /PATH/FILENAME
 ```
 Add this line to /etc/fstab
 ```
-/PATH/FILENAME swap swap sw 0 0
+/PATH/FILENAME none swap sw 0 0
 ```
 
 ## Install / Update
