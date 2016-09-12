@@ -11,12 +11,16 @@ GCC/G++ >= 4.8.* / git / screen / curl. On low-spec hardware, don't forget to in
 
 #### Debian / Ubuntu / Raspbian
 ```
-sudo apt-get install build-essential openssl curl git-core screen -y
+sudo apt-get install build-essential openssl curl git screen
 ```
 
 #### Arch Linux
 ```
-sudo pacman -S base-devel openssl curl git screen wget -y
+sudo pacman -S base-devel openssl curl git screen wget
+```
+#### Gentoo
+```
+emerge --ask openssl curl git screen wget
 ```
 
 #### Raspbian
