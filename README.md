@@ -46,7 +46,7 @@ sudo /etc/init.d/dphys-swapfile stop
 sudo /etc/init.d/dphys-swapfile start
 ```
 
-#### Arch Linux
+#### Arch Linux / Gentoo
 
 Create swap file:
 ```
