@@ -6,8 +6,8 @@ I can't be responsible if you break something.
 
 ## Requirements
 
-#### GNU/Linux
-**GCC/G++ >= 4.8.*** / git / screen / curl. On low-spec hardware, don't forget to increase the swap space (min 1024MB) to avoid 'Virtual memory exhausted: Cannot allocate memory' during the build process.
+#### GNU / Linux
+GCC/G++ >= **4.8.*** / git / screen / curl. On low-spec hardware, don't forget to increase the swap space (min 1024MB) to avoid 'Virtual memory exhausted: Cannot allocate memory' during the build process.
 
 #### Debian / Ubuntu / Raspbian
 ```
