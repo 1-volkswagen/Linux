@@ -23,6 +23,8 @@ sudo pacman -S base-devel openssl curl git screen wget
 sudo emerge --ask openssl curl git screen wget
 ```
 
+## Swap
+
 #### Raspbian
 Be sure to have enough swap to avoid 'Virtual memory exhausted: Cannot allocate memory'.
 Raspbian default swap size is 100MB, please increase the size before building.
