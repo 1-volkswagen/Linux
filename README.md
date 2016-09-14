@@ -93,7 +93,7 @@ Activate the swap file:
 ```
 swapon /PATH/FILENAME
 ```
-Add this line to /etc/fstab
+Add this line to /etc/fstab:
 ```
 /PATH/FILENAME none swap sw 0 0
 ```
