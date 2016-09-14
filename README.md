@@ -79,23 +79,23 @@ CTRL+X and press Y.
 
 Create swap file:
 ```
-dd if=/dev/zero of=/PATH/FILENAME bs=1024 count=SIZE
+dd if=/dev/zero of=/path/filename bs=1M count=1024
 ```
 Set permissions:
 ```
-chmod 600 /PATH/FILENAME
+chmod 600 /path/filename
 ```
 Format to swap:
 ```
-mkswap /PATH/FILENAME
+mkswap /path/filename
 ```
 Activate the swap file:
 ```
-swapon /PATH/FILENAME
+swapon /path/filename
 ```
 Add this line to /etc/fstab:
 ```
-/PATH/FILENAME none swap sw 0 0
+/path/filename none swap sw 0 0
 ```
 
 ## Install / Update
