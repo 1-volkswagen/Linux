@@ -114,30 +114,3 @@ Resume the screen session with:
 screen -x vcashd
 ```
 Ctrl-A Ctrl-D to detach.
-
-## Launch
-Be sure there's no vcashd running before !
-```
-ps x | grep '[v]cashd'
-```
-To launch:
-```
-cd ~/vcash/
-screen -d -S vcashd -m ./vcashd
-```
-
-## Crontab
-As user:
-Autostart Vcash daemon on reboot with crontab:
-```
-crontab -e
-```
-Add this entry (edited with your username):
-```
-@reboot pgrep vcashd > /dev/null || cd /home/your_username/vcash && screen -d -S vcashd -m ./vcashd
-```
-Save & check crontab:
-```
-crontab -l
-```
-Then do a reboot test.
