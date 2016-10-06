@@ -1,4 +1,4 @@
-# Vcash Install / Update Scripts
+# Linux Vcash Install Script
 
 ## Warning !
 Please backup your existing wallet files (~/.Vcash/data/ folder).
