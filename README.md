@@ -9,7 +9,7 @@ I can't be responsible if you break something.
 ## Requirements
 
 #### GNU / Linux
-GCC/G++ >= **4.8.***. Don't forget to increase the swap space with a minimum of 1024MB to avoid "Virtual memory exhausted: Cannot allocate memory" during the build process on ARM like developer boards or machines with less then X GB of memory.
+GCC version **4.8.***. Don't forget to increase the swap space with a minimum of 1024MB to avoid "Virtual memory exhausted: Cannot allocate memory" during the build process on ARM like developer boards or machines with less then X GB of memory.
 
 Note: GCC version 4.9.2 is confirmed to work on a raspberry pi 2/3 running raspbian jessie.
 
