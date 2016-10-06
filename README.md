@@ -108,8 +108,8 @@ git clone https://github.com/john-connor/vcash-scripts
 cd vcash-scripts
 ./build-linux.sh
 ```
-The script will auto launch vcashd at the end.
-Resume the screen session with:
+At the end of the script an instance of the vcash daemon is launched in a screen session.
+You can resume the screen session with the following command:
 ```
 screen -x vcashd
 ```
