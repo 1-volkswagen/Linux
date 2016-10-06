@@ -109,6 +109,7 @@ cd vcash-scripts
 ./build-linux.sh
 ```
 At the end of the script an instance of the vcash daemon is launched in a screen session.
+
 You can resume the screen session with the following command:
 ```
 screen -x vcashd
