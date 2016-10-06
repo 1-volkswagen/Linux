@@ -102,7 +102,7 @@ Add this line to /etc/fstab:
 ```
 
 ## Install / Update
-As user (fresh ssh login as user, not su switch to user from the root account):
+Run as user (not root).
 ```
 git clone https://github.com/john-connor/vcash-scripts
 cd vcash-scripts
@@ -113,4 +113,4 @@ Resume the screen session with:
 ```
 screen -x vcashd
 ```
-Ctrl-A Ctrl-D to detach.
+Press Ctrl-A + D to detach.
