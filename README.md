@@ -116,4 +116,4 @@ screen -x vcashd
 ```
 Press Ctrl-A + D to detach.
 
-Now you can let the blockchain download and sync up.
+Now you can just let the blockchain download and sync up.
