@@ -114,3 +114,5 @@ Resume the screen session with:
 screen -x vcashd
 ```
 Press Ctrl-A + D to detach.
+
+Now you can let the blockhain download and sync up.
