@@ -13,6 +13,8 @@ I can't be responsible if you break something.
 #### GNU / Linux
 GCC/G++ >= **4.8.***. On low-spec hardware, don't forget to increase the swap space (min 1024MB) to avoid 'Virtual memory exhausted: Cannot allocate memory' during the build process.
 
+Note: GCC version 4.9.2 is confirmed to work on a raspberry pi running raspbian jessie.
+
 #### Debian / Ubuntu / Raspbian
 ```
 sudo apt-get install build-essential openssl curl git screen wget
