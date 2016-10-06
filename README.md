@@ -29,14 +29,14 @@ sudo emerge --ask openssl curl git screen wget
 ## Swap
 
 #### Raspbian
-Be sure to have enough swap to avoid "Virtual memory exhausted: Cannot allocate memory".
+Be sure to have enough swap space to avoid "Virtual memory exhausted: Cannot allocate memory".
 
 Check swap size:
 ```
 free -m
 ```
 
-Example with 1024MB as swap size:
+Set 1024MB as swap size:
 ```
 sudo nano /etc/dphys-swapfile
 ```
