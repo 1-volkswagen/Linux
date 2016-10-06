@@ -2,8 +2,6 @@
 
 Linux Vcash Install Script :penguin:
 
-THIS IS A FORK FROM THE ORIGINAL SCRIPT BUILT BY A THIRD PARTY.
-
 ## Warning !
 Please backup your existing wallet files (~/.Vcash/data/ folder).
 I can't be responsible if you break something.
